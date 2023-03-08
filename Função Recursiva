@@ -1,0 +1,7 @@
+function somarArrayRecursivo(array, indice) {
+  if (indice === array.length) {
+    return 0;
+  } else {
+    return array[indice] + somarArrayRecursivo(array, indice + 1);
+  }
+}
